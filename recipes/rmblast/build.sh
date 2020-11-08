@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euxo pipefail
 
-patch -p1 < $RECIPE_DIR/isb-2.9.0+-rmblast-p2.patch
+#patch -p1 < $RECIPE_DIR/isb-2.9.0+-rmblast-p2.patch
 
 cd $SRC_DIR/c++/
 
